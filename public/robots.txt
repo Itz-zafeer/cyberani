@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.jicollege.edu.sa
+
+# Sitemaps
+Sitemap: https://www.jicollege.edu.sa/sitemap.xml
