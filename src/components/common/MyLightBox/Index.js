@@ -8,7 +8,7 @@ const MyLightBox = ({
   autoPlay,
   slideNo,
   showNow,
-  setShowNow
+  setShowNow,
 }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const main = useRef(null);
@@ -183,7 +183,7 @@ const MyLightBox = ({
                         height: "100%",
                         playerVars: {
                           // autoplay: 1,
-                        }
+                        },
                       }}
                     />
                   ) : (

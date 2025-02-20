@@ -332,7 +332,7 @@ export const Header = ({ arabic, blackHeader }) => {
       <div className="flex justify-between lg:px-sp100 lg:py-sp30 py-10 px-5">
         <Link
           href="/"
-          className="relative z-[1] lg:w-[13.8888888889vw] lg:h-[4.44444444444vw] w-[120px] h-[38px]"
+          className="relative z-[1] lg:w-[13.8888888889vw] lg:h-[4.44444444444vw] w-[30.7692307692vw] h-[9.74358974359vw] sm:w-[23vw] sm:h-[7vw]"
         >
           <Image
             fill

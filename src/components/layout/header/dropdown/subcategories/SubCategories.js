@@ -13,7 +13,7 @@ const SubCategories = ({ dropDownData, activeCategory }) => {
         <Link
           key={index}
           href={"/"}
-          className="flex flex-col lg:gap-y-sp10 lg:min-w-[13.8888888889vw] w-full lg:w-[unset] group"
+          className="flex flex-col lg:gap-y-sp10 lg:w-[13.8888888889vw] w-full group"
         >
           <span
             style={{
