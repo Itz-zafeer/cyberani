@@ -3,9 +3,9 @@ import Hero from "./hero/Hero";
 import About from "./about/About";
 import Services from "./services/Services";
 import Challenges from "./Challenges";
-import Cta from "./Cta";
 import WhatsNext from "./WhatsNext";
-import FormSection from "../common/form-section/FormSection";
+import Contact from "../common/contact/Contact";
+import Cta from "./cta/Cta";
 
 const HomePage = ({ arabic }) => {
   return (
@@ -16,7 +16,7 @@ const HomePage = ({ arabic }) => {
       <Challenges arabic={arabic} />
       <Cta arabic={arabic} />
       <WhatsNext arabic={arabic} />
-      <FormSection arabic={arabic} />
+      <Contact arabic={arabic} />
     </>
   );
 };

@@ -50,7 +50,7 @@ const Services = () => {
         ))}
       </div>
       <div className="myContainer flex justify-center">
-        <LinkBtn text={"Read More"} link={"/"} black />
+        <LinkBtn text={"Read More"} link={"/our-services"} black />
       </div>
     </section>
   );

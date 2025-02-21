@@ -2,17 +2,18 @@
 import useLangSwitcher from "@/hooks/useLangSwitcher";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import React, { useRef, useState } from "react";
 import DropDown from "./dropdown/DropDown";
 import useResponsivness from "@/hooks/useResponsivness";
 const navigationLinks = [
   {
     lable: "About Cyberani",
-    link: "/",
+    link: "/about",
   },
   {
     lable: "Our Services",
-    link: "/",
+    link: "/our-services",
     dropDown: [
       {
         category: "Managed Security Operations",
@@ -280,11 +281,11 @@ const navigationLinks = [
   },
   {
     lable: "Careers",
-    link: "/",
+    link: "/careers",
   },
   {
     lable: "Media Center",
-    link: "/",
+    link: "/media-center",
   },
 ];
 export const Header = ({ arabic, blackHeader }) => {
@@ -292,6 +293,8 @@ export const Header = ({ arabic, blackHeader }) => {
   const { isDesktop } = useResponsivness();
   const dropDown = useRef();
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const pathname = usePathname();
+
   function toggleSidebar() {
     if (!isDesktop) {
       const body = document.querySelector("body");
@@ -366,7 +369,11 @@ export const Header = ({ arabic, blackHeader }) => {
                   <div>
                     <div
                       onClick={() => toggleDropDownMob()}
-                      className="relative z-[1] flex justify-between lg:justify-normal items-center lg:gap-sp10 gap-2 group-hover/color:lg:text-persian-green transition-all duration-500 cursor-pointer"
+                      className={`${
+                        pathname === navigationLink.link
+                          ? "text-persian-green"
+                          : ""
+                      } relative z-[1] flex justify-between lg:justify-normal items-center lg:gap-sp10 gap-2 group-hover/color:lg:text-persian-green transition-all duration-500 cursor-pointer`}
                     >
                       {navigationLink.lable}
                       <svg
@@ -394,7 +401,11 @@ export const Header = ({ arabic, blackHeader }) => {
                 ) : (
                   <Link
                     href={`${navigationLink.link}`}
-                    className="group-hover/color:lg:text-persian-green transition-all duration-500 cursor-pointer relative z-[1]"
+                    className={`${
+                      pathname === navigationLink.link
+                        ? "text-persian-green"
+                        : ""
+                    } group-hover/color:lg:text-persian-green transition-all duration-500 cursor-pointer relative z-[1]`}
                   >
                     {navigationLink.lable}
                   </Link>

@@ -27,6 +27,7 @@ module.exports = {
         sp24: "var(--sp24)",
         sp30: "var(--sp30)",
         sp32: "var(--sp32)",
+        sp36: "var(--sp36)",
         sp40: "var(--sp40)",
         sp48: "var(--sp48)",
         sp56: "var(--sp56)",

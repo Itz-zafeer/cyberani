@@ -71,7 +71,9 @@ const Hero = () => {
           //     type: "youtube"
           //   }
           // ]}
-          sources={[{ source: "/videos/home_hero.mp4", type: "video" }]}
+          sources={[
+            { source: "/videos/hero_showcase_home.mp4", type: "video" },
+          ]}
           // sources={[{ source: data?.youtubeId, type: "youtube" }]}
         />
       )}

@@ -7,7 +7,7 @@ const Layout = ({ children, arabic, blackHeader }) => {
     <div>
       <Header arabic={arabic} blackHeader={blackHeader} />
       <main>{children}</main>
-      {/* <Footer arabic={arabic} /> */}
+      <Footer arabic={arabic} />
     </div>
   );
 };
