@@ -40,6 +40,7 @@ const BrowseServices = () => {
           </button>
           <div className="lg:mt-sp64 mt-8 flex flex-wrap lg:gap-sp40 gap-10">
             <div className="lg:w-[19.4444444444vw] lg:h-[17.3611111111vw] relative w-[280px] h-[250px] border20 overflow-hidden flex items-end lg:pb-sp18 pb-[18px]">
+              <div></div>
               <div className="relative z-[2] text-white flex flex-col lg:gap-y-[0.97222222222vw] gap-3 lg:w-[16.25vw] w-[77.429%] mx-auto">
                 <span className="button_gradient w-full h-[1px]"></span>
                 <p className="lg:text20 mtext20 font-medium">dsa</p>
