@@ -17,7 +17,9 @@ const ContentWrapper = ({
           <h1 className="text48 lg:leading-[4.16666666667vw]">
             {content.heading}
           </h1>
-          <p className="lg:text20 mtext18 lg:mt-sp10 mt-4">{content.desc}</p>
+          {content.desc && (
+            <p className="lg:text20 mtext18 lg:mt-sp10 mt-4">{content.desc}</p>
+          )}
         </div>
       </div>
       {showCaseVideo && (

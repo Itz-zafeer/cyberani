@@ -19,7 +19,7 @@ const Backgrounds = ({ banner }) => {
             loading="lazy"
           ></video>
         ) : (
-          <Image fill alt="banner" src={banner?.src} />
+          <Image fill alt="banner" src={banner?.src} className="object-cover" />
         )}
       </div>
     </div>

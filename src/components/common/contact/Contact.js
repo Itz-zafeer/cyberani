@@ -1,9 +1,8 @@
-"use client";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Form from "./Form";
 import BackGrounds from "./BackGrounds";
+import Form from "../form/Form";
 
 const Contact = () => {
   return (

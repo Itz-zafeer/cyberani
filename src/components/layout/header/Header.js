@@ -415,7 +415,7 @@ export const Header = ({ arabic, blackHeader }) => {
           </ul>
           <span className="w-full h-[1px] bg-[#FFFFFF1A] block lg:hidden mt-auto"></span>
           <Link
-            href="/"
+            href="/contact-us"
             className="relative z-[1] lg:text16 mtext16 button_gradient border110 border border-dark-teal lg:py-[0.20833333333vw] lg:px-[1.19652777778vw] px-[17.245px] py-[2px]"
           >
             Contact Us
