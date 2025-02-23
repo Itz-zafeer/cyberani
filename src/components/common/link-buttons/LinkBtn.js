@@ -23,7 +23,7 @@ const LinkBtn = ({
       }
       ${isLoading ? "pointer-events-none" : ""} 
       group group-hover:text-white hover:text-white overflow-hidden 
-      lg:pt-[0.48611111111vw] lg:px-[1.54305555556vw] 
+      lg:py-[0.625vw] lg:px-[1.54305555556vw] 
       py-2 px-[22px] sm:py-4 sm:px-12 lg:text22 mtext22 font-medium capitalize 
       flex items-center justify-center lg:gap-x-sp10 gap-x-[5px] 
       relative border_button_gradient_hoverhandler transition-all duration-300`}
