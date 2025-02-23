@@ -246,8 +246,8 @@ input[type="number"] {
   .newsblogs_pagination .number {
     @apply hover:text-white hover:bg-bright-teal lg:size-sp48 size-12 flex justify-center items-center border border-[#fff3] lg:rounded-[0.41666666666vw] rounded-[6px] cursor-pointer;
   }
-  .newsblogs_pagination.from_blogs .chevron_indicator,
-  .newsblogs_pagination.from_blogs .number {
+  .newsblogs_pagination.black_varient .chevron_indicator,
+  .newsblogs_pagination.black_varient .number {
     @apply border-[#0003];
   }
   .newsblogs_pagination .number.active {
@@ -265,6 +265,14 @@ input[type="number"] {
   .common_form .input {
     @apply outline-none bg-transparent lg:text16 mtext16 size-full text-white placeholder:text-[#fff] placeholder:text-opacity-[0.2];
   }
+
+  .terms_privacy__content {
+    @apply lg:text22 mtext22 flex flex-col lg:gap-sp24 gap-6 lg:text-start text-center;
+  }
+  .terms_privacy__content h2 {
+    @apply text36;
+  }
+
   .rtl [data-aos="fade-up"],
   .ltr [data-aos="fade-up"] {
     transform: translate3d(0, 45px, 0);
@@ -347,7 +355,8 @@ input[type="number"] {
   }
 }
 
-.border_button_gradient {
+.border_button_gradient,
+.gradient_border {
   background-image: linear-gradient(
     270deg,
     var(--persian-green) 0%,
@@ -428,6 +437,10 @@ input[type="number"] {
   );
 }
 
+.single_page_banner_overlay {
+  background: linear-gradient(180deg, rgba(1, 40, 79, 0) 0%, #01284f 100%);
+}
+
 .service_card_verlay {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%);
 }
@@ -450,6 +463,23 @@ input[type="number"] {
   background: linear-gradient(180deg, rgba(18, 18, 18, 0) 0%, #121212 100%);
 }
 
+.servicepage_hero_overlay1 {
+  background: linear-gradient(180deg, #01284f 0%, rgba(1, 40, 79, 0) 100%);
+}
+.servicepage_hero_overlay2 {
+  background: linear-gradient(
+    180deg,
+    rgba(1, 41, 79, 0) 15.79%,
+    rgba(0, 167, 119, 0.35) 49.06%,
+    #01294f 100%
+  );
+}
+.servicepage_hero_overlay3 {
+  background: linear-gradient(180deg, rgba(1, 41, 79, 0) 15.79%, #01294f 100%);
+}
+.service_feature_overlay {
+  background: linear-gradient(90deg, rgba(1, 40, 79, 0) 0%, #01284f 97.78%);
+}
 /* Hide scrollbar for Chrome, Safari and Opera */
 .hideScroll::-webkit-scrollbar {
   display: none;

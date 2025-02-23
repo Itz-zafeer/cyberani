@@ -30,7 +30,7 @@ const DropDown = ({ dropDownData, dropDown, toggleDropDownMob }) => {
       className="group-hover/dropDown:lg:pointer-events-auto group-hover/dropDown:lg:opacity-[1] lg:opacity-[0] opacity-100 lg:pointer-events-none lg:max-h-[unset] max-h-0 overflow-hidden lg:overflow-visible transition-all duration-500 text-white lg:absolute top-0 lrf1 w-full bg-dark-navy lg:border-b-2 lg:border-light-teal"
     >
       <img
-        src="./images/header/dropdown_active.png"
+        src="/images/header/dropdown_active.png"
         alt="dropdown_active"
         style={{
           transform: `translateY(${offsets[activeCategory] || 0}px)`,

@@ -23,7 +23,7 @@ const navigationLinks = [
             desc: "Cyberani's MDR services offer 24/7 cyber threat hunting, detection, and rapid response",
             link: {
               label: "Explore MDR",
-              link: "/",
+              link: "/service-page",
             },
           },
           {
@@ -31,7 +31,7 @@ const navigationLinks = [
             desc: "Level up your IT and OT security with Cyberani",
             link: {
               label: "Explore Managed IT/OT SOC",
-              link: "/",
+              link: "/service-page",
             },
           },
           {
@@ -39,7 +39,7 @@ const navigationLinks = [
             desc: "Around-the-clock monitoring of networks and endpoints",
             link: {
               label: "Explore Cybersecurity Monitoring",
-              link: "/",
+              link: "/service-page",
             },
           },
           {
@@ -47,7 +47,7 @@ const navigationLinks = [
             desc: "Isolate impersonation assaults from impacting your reputation",
             link: {
               label: "Explore Brand Protection",
-              link: "/",
+              link: "/service-page",
             },
           },
           {
@@ -55,7 +55,7 @@ const navigationLinks = [
             desc: "Stay ahead of cybercriminals with precise threat intelligence",
             link: {
               label: "Explore Threat Intelligence",
-              link: "/",
+              link: "/service-page",
             },
           },
         ],
@@ -68,7 +68,7 @@ const navigationLinks = [
             desc: "Strengthen your cyber resilience with a solid cybersecurity strategy.",
             link: {
               label: "Explore Cybersecurity Strategy",
-              link: "/",
+              link: "/service-page",
             },
           },
           {
@@ -76,7 +76,7 @@ const navigationLinks = [
             desc: "Streamline your cybersecurity functions.",
             link: {
               label: "Explore Cybersecurity Program",
-              link: "/",
+              link: "/service-page",
             },
           },
           {
@@ -84,7 +84,7 @@ const navigationLinks = [
             desc: "Equip your employees with cybersecurity awareness.",
             link: {
               label: "Explore Cybersecurity Awareness",
-              link: "/",
+              link: "/service-page",
             },
           },
           {
@@ -92,7 +92,7 @@ const navigationLinks = [
             desc: "Identify your cyber risks to enhance your cyber defenses.",
             link: {
               label: "Explore Cybersecurity Risk Assessment",
-              link: "/",
+              link: "/service-page",
             },
           },
           {
@@ -100,7 +100,7 @@ const navigationLinks = [
             desc: "Comply with cybersecurity standards and regulations.",
             link: {
               label: "Explore Compliance Assessment",
-              link: "/",
+              link: "/service-page",
             },
           },
           {
@@ -108,7 +108,7 @@ const navigationLinks = [
             desc: "Take your cybersecurity posture to the next level.",
             link: {
               label: "Explore Cybersecurity Maturity Assessment",
-              link: "/",
+              link: "/service-page",
             },
           },
         ],
@@ -121,7 +121,7 @@ const navigationLinks = [
             desc: "Advanced vulnerability scanning to ensure proactive defense.",
             link: {
               label: "Explore Vulnerability Assessment",
-              link: "/",
+              link: "/service-page",
             },
           },
           {
@@ -129,7 +129,7 @@ const navigationLinks = [
             desc: "Fortify your IT environment with real-world attack preparedness.",
             link: {
               label: "Explore Penetration Testing",
-              link: "/",
+              link: "/service-page",
             },
           },
           {
@@ -137,7 +137,7 @@ const navigationLinks = [
             desc: "Advanced code assessment and analysis.",
             link: {
               label: "Explore Source Code Review",
-              link: "/",
+              link: "/service-page",
             },
           },
           {
@@ -145,7 +145,7 @@ const navigationLinks = [
             desc: "Simulated cyber attacks to test your cybersecurity posture.",
             link: {
               label: "Explore Red Teaming",
-              link: "/",
+              link: "/service-page",
             },
           },
           {
@@ -153,7 +153,7 @@ const navigationLinks = [
             desc: "Mitigate mobile app weaknesses with expert review and assessment.",
             link: {
               label: "Explore Mobile App Assessment",
-              link: "/",
+              link: "/service-page",
             },
           },
           {
@@ -161,7 +161,7 @@ const navigationLinks = [
             desc: "Mitigate web app vulnerabilities with expert review and assessment.",
             link: {
               label: "Explore Web App Assessment",
-              link: "/",
+              link: "/service-page",
             },
           },
         ],
@@ -174,7 +174,7 @@ const navigationLinks = [
             desc: "Protect critical systems and achieve peak compliance.",
             link: {
               label: "Explore OT GRC",
-              link: "/",
+              link: "/service-page",
             },
           },
           {
@@ -182,7 +182,7 @@ const navigationLinks = [
             desc: "Enhance the defense maturity of your industrial systems.",
             link: {
               label: "Explore OT Risk Assessment",
-              link: "/",
+              link: "/service-page",
             },
           },
           {
@@ -190,7 +190,7 @@ const navigationLinks = [
             desc: "Safeguard your industrial system with real-world attack preparedness.",
             link: {
               label: "Explore OT Penetration Testing",
-              link: "/",
+              link: "/service-page",
             },
           },
           {
@@ -198,7 +198,7 @@ const navigationLinks = [
             desc: "Protect your critical systems against cyber attacks.",
             link: {
               label: "Explore OT Architectural",
-              link: "/",
+              link: "/service-page",
             },
           },
           {
@@ -206,7 +206,7 @@ const navigationLinks = [
             desc: "Gain full control over your OT assets.",
             link: {
               label: "Explore OT Automated Assets Discovery",
-              link: "/",
+              link: "/service-page",
             },
           },
           {
@@ -214,7 +214,7 @@ const navigationLinks = [
             desc: "Restore industrial operations and find the root cause of intrusions.",
             link: {
               label: "Explore OT DFIR",
-              link: "/",
+              link: "/service-page",
             },
           },
           {
@@ -222,7 +222,7 @@ const navigationLinks = [
             desc: "Streamline your industrial systems operations.",
             link: {
               label: "Explore OT Cybersecurity Program",
-              link: "/",
+              link: "/service-page",
             },
           },
           {
@@ -230,7 +230,7 @@ const navigationLinks = [
             desc: "Incorporate your industrial systems aspects in OT Projects.",
             link: {
               label: "Explore OT Cybersecurity Projects",
-              link: "/",
+              link: "/service-page",
             },
           },
         ],
@@ -243,7 +243,7 @@ const navigationLinks = [
             desc: "Subscription-based support led by experts to ensure cyber resilience.",
             link: {
               label: "Explore Incident Response Retainer",
-              link: "/",
+              link: "/service-page",
             },
           },
           {
@@ -251,7 +251,7 @@ const navigationLinks = [
             desc: "Minimize impact of data breaches.",
             link: {
               label: "Explore Compromise Assessment",
-              link: "/",
+              link: "/service-page",
             },
           },
           {
@@ -259,7 +259,7 @@ const navigationLinks = [
             desc: "Fine-tune your incident response with expert guidance.",
             link: {
               label: "Explore Tabletop Exercise",
-              link: "/",
+              link: "/service-page",
             },
           },
         ],
@@ -272,7 +272,7 @@ const navigationLinks = [
               "Elite partnerships with leading Cybersecurity Technology vendors",
             link: {
               label: "Read More",
-              link: "/",
+              link: "/service-page",
             },
           },
         ],
@@ -329,7 +329,11 @@ export const Header = ({ arabic, blackHeader }) => {
   return (
     <header
       className={`fixed z-10 top-0 lrf1 w-full ${
-        blackHeader ? "text-black" : "text-white"
+        !isSidebarOpen
+          ? blackHeader
+            ? "text-black"
+            : "text-white"
+          : "text-white"
       }`}
     >
       <div className="flex justify-between lg:px-sp100 lg:py-sp30 py-10 px-5">
@@ -416,7 +420,7 @@ export const Header = ({ arabic, blackHeader }) => {
           <span className="w-full h-[1px] bg-[#FFFFFF1A] block lg:hidden mt-auto"></span>
           <Link
             href="/contact-us"
-            className="relative z-[1] lg:text16 mtext16 button_gradient border110 border border-dark-teal lg:py-[0.20833333333vw] lg:px-[1.19652777778vw] px-[17.245px] py-[2px]"
+            className="relative z-[1] lg:text16 mtext16 button_gradient border110 border border-dark-teal lg:py-[0.20833333333vw] lg:px-[1.19652777778vw] px-[17.245px] py-[2px] text-white"
           >
             Contact Us
           </Link>

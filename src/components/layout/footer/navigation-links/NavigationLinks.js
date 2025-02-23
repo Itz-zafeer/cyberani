@@ -154,11 +154,11 @@ const navigationLinks = [
     links: [
       {
         label: "Terms of Use",
-        link: "/",
+        link: "/terms-of-use",
       },
       {
         label: "Privacy Policy",
-        link: "/",
+        link: "/privacy-policy",
       },
     ],
   },

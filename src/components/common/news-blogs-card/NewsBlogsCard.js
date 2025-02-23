@@ -3,11 +3,15 @@ import ChevronLink from "../link-buttons/ChevronLink";
 import Link from "next/link";
 import BackGrounds from "./BackGrounds";
 
-const NewsBlogsCard = ({ link }) => {
+const NewsBlogsCard = ({ link, formSwiper }) => {
   return (
     <Link
-      href={`${link}`}
-      className="group text-white lg:min-w-[26.3194444444vw] lg:w-[26.3194444444vw] lg:h-[22.5vw] w-[327px] min-w-[327px] h-[280px] relative lg:border10 border8 overflow-hidden flex items-end lg:pb-sp24 pb-5"
+      href={`${link ? link : "/"}`}
+      className={`${
+        formSwiper
+          ? "w-full"
+          : "group lg:w-[26.3194444444vw] w-[93.429%] sm:w-[55%] lg:min-w-[26.3194444444vw] sm:min-w-[55%]"
+      }  text-white lg:h-[22.5vw] h-[280px] sm:h-[300px] relative lg:border10 border8 overflow-hidden flex items-end lg:pb-sp24 pb-5`}
     >
       <BackGrounds />
       <div className="relative z-[2] lg:w-[23.5416666667vw] mx-auto w-[89.606%] whitespace-normal">

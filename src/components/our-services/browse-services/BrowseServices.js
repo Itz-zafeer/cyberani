@@ -166,8 +166,8 @@ const BrowseServices = () => {
           <Search />
         </div>
       </div>
-      <div className="lg:myContainer w-full px-5 sm:px-[4.8vw] lg:px-0">
-        <div className="lg:mt-sp48 mt-6 flex whitespace-nowrap lg:whitespace-normal lg:overflow-visible overflow-auto hideScroll lg:gap-x-[3.125vw] gap-x-6">
+      <div className="lg:myContainer w-full">
+        <div className="px-[5.12820512821vw] sm:px-[4.8vw] lg:px-0 lg:mt-sp48 mt-6 flex whitespace-nowrap lg:whitespace-normal lg:overflow-visible overflow-auto hideScroll lg:gap-x-[3.125vw] gap-x-6">
           {categories.map((category, index) => (
             <Category
               category={category}
@@ -178,7 +178,7 @@ const BrowseServices = () => {
             />
           ))}
         </div>
-        <div className="lg:mt-sp64 mt-8 flex lg:flex-wrap lg:gap-sp40 gap-10 whitespace-nowrap lg:whitespace-normal lg:overflow-visible overflow-auto hideScroll">
+        <div className="px-[5.12820512821vw] sm:px-[4.8vw] lg:px-0 lg:mt-sp64 mt-8 flex lg:flex-wrap lg:gap-sp40 gap-10 whitespace-nowrap lg:whitespace-normal lg:overflow-visible overflow-auto hideScroll">
           {browseServices[active].services.map((service, index) => (
             <Card key={index} service={service} index={index} />
           ))}

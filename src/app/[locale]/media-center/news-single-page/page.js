@@ -8,7 +8,7 @@ const page = ({ params: { locale } }) => {
   const isAr = locale == "ar";
   return (
     <>
-      <Layout arabic={isAr}>
+      <Layout arabic={isAr} blackHeader>
         <NewsSinglePage arabic={isAr} />
       </Layout>
     </>

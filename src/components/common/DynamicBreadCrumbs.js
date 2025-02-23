@@ -6,11 +6,11 @@ const DynamicBreadCrumbs = ({ arabic, breadCrumbs }) => {
   return (
     <div
       data-aos="fade"
-      className="flex flex-wrap items-center justify-center lg:justify-normal lg:gap-x-[0.48611111111vw] gap-[7px] capitalize lg:text20 mtext18 font-medium"
+      className="flex flex-wrap items-center justify-center lg:justify-normal lg:gap-x-[0.48611111111vw] gap-[7px] capitalize lg:text20 mtext18 font-medium text-inherit"
     >
       <Link
         href={(arabic ? "/ar" : "/en") + "/"}
-        className="flex items-center lg:gap-x-[0.48611111111vw] gap-[7px]"
+        className="flex items-center lg:gap-x-[0.48611111111vw] gap-[7px] opacity_Hover"
       >
         <div className="opacity_Hover relative lg:size-sp24 size-6">
           <Image fill src="/images/icons/home.svg" alt="home-icon" />

@@ -7,7 +7,11 @@ import LinkBtn from "../link-buttons/LinkBtn";
 
 const Form = ({ fromContactPage }) => {
   return (
-    <form className="common_form lg:w-[46.5277777778vw] w-full flex flex-col lg:gap-y-sp40 gap-10 text-white font-medium">
+    <form
+      className={`${
+        fromContactPage ? "lg:w-[54.3055555556vw]" : "lg:w-[46.5277777778vw]"
+      } common_form w-full flex flex-col lg:gap-y-sp40 gap-10 text-white font-medium`}
+    >
       <div className="flex flex-wrap justify-between lg:gap-x-[0.97222222222vw] lg:gap-y-sp20 gap-5">
         <DropDownField />
         <InputField placeholder={"Name"} />

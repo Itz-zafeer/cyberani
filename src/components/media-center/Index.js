@@ -15,7 +15,7 @@ const MediaCenterPage = () => {
         }}
       />
       <NewsBlogsContainer link={"/media-center/news-single-page"} />
-      <NewsBlogsContainer fromBlogs />
+      <NewsBlogsContainer fromBlogs link={"/media-center/blogs-single-page"} />
     </>
   );
 };

@@ -2,7 +2,7 @@ import React from "react";
 
 const Pagination = ({ fromBlogs }) => {
   return (
-    <div className={`${fromBlogs ? "from_blogs" : ""} newsblogs_pagination`}>
+    <div className={`${fromBlogs ? "black_varient" : ""} newsblogs_pagination`}>
       <div className="chevron_indicator">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" fill="none">
           <path
