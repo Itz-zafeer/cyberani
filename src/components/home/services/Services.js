@@ -42,7 +42,7 @@ const services = [
 ];
 const Services = () => {
   return (
-    <section className="lg:py-sp120 pt-[135px] flex flex-col items-center lg:gap-y-sp48 gap-y-12">
+    <section className="bg-white relative z-[2] lg:py-sp120 pt-[135px] flex flex-col items-center lg:gap-y-sp48 gap-y-12">
       <Content />
       <div className="lg:myContainer w-full flex lg:gap-sp20 gap-5 px-5 sm:px-[4.8vw] lg:px-0 lg:overflow-hidden lg:whitespace-normal whitespace-nowrap overflow-auto hideScroll">
         {services.map((service, index) => (

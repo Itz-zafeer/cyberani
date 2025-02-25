@@ -60,7 +60,7 @@ const SortDropDown = ({ fromBlogs }) => {
           {options.map((option) => (
             <li
               key={option}
-              className="lg:px-sp24 px-4 lg:py-sp18 py-4 lg:text18 mtext18 cursor-pointer hover:opacity-50"
+              className="lg:px-sp24 px-4 lg:py-[0.90277777777vw] py-4 lg:text18 mtext18 cursor-pointer hover:opacity-50"
               onClick={() => {
                 setSelected(option);
                 setIsOpen(false);

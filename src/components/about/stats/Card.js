@@ -61,8 +61,8 @@ const Card = ({ data }) => {
     <div ref={cardRef} className="lg:w-[25.5555555556vw]">
       <div className="flex flex-col lg:items-start items-center lg:text-start text-center lg:gap-sp20 gap-5">
         <div className="flex flex-wrap items-center">
-          <span className="gradient_text lg:text48 lg:leading-[3.33333333333vw] text-[48px] !font-bold flex items-center">
-            {currentValue}
+          <span className="lg:text48 lg:leading-[3.33333333333vw] text-[48px] !font-bold flex gap-0.5 items-center">
+            <span className="gradient_text">{currentValue}</span>
             <span className="gradient_text lg:text32 mtext32 font-medium">
               {data.suffix && data.suffix}
             </span>

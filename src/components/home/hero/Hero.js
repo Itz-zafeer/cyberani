@@ -28,7 +28,7 @@ const Hero = () => {
   };
   return (
     <>
-      <section className="minfullVh minfullSvh relative flex items-end lg:pt-[14.3055555556vw] lg:pb-[9.51388888889vw] py-40">
+      <section className="minfullVh minfullSvh relative z-[2] flex items-end lg:pt-[14.3055555556vw] lg:pb-[9.51388888889vw] py-40">
         <Backgrounds />
         <div className="myContainer relative z-[2]">
           <div className="lg:w-[44.3055555556vw] text-white flex flex-col items-center lg:items-start text-center lg:text-start">

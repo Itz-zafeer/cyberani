@@ -28,7 +28,7 @@ const LinkBtn = ({
       flex items-center justify-center lg:gap-x-sp10 gap-x-[5px] 
       relative border_button_gradient_hoverhandler transition-all duration-300`}
     >
-      <span className="atlwh_Full border-2 border-transparent border_button_gradient border80 transition-all duration-1000"></span>
+      <span className="atlwh_Full border-[4px] border-transparent border_button_gradient border80 transition-all duration-1000"></span>
       <span className="relative z-[2]">
         {isLoading ? translationText : text}
       </span>

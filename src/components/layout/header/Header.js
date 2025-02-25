@@ -3,7 +3,7 @@ import useLangSwitcher from "@/hooks/useLangSwitcher";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import DropDown from "./dropdown/DropDown";
 import useResponsivness from "@/hooks/useResponsivness";
 const navigationLinks = [
@@ -290,10 +290,10 @@ const navigationLinks = [
 ];
 export const Header = ({ arabic, blackHeader }) => {
   const { changeLocale } = useLangSwitcher();
-  const { isDesktop } = useResponsivness();
   const dropDown = useRef();
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const pathname = usePathname();
+  const { isDesktop, isMobile, isTablet } = useResponsivness();
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   function toggleSidebar() {
     if (!isDesktop) {
@@ -302,6 +302,7 @@ export const Header = ({ arabic, blackHeader }) => {
       setIsSidebarOpen(!isSidebarOpen);
     }
   }
+
   const toggleDropDownMob = (fromSubcategory) => {
     if (!isDesktop) {
       const dropDownEl = dropDown.current;
@@ -359,9 +360,9 @@ export const Header = ({ arabic, blackHeader }) => {
             isDesktop
               ? ""
               : isSidebarOpen
-              ? "translate-x-0"
-              : "-translate-x-full"
-          } transition bg-dark-navy lg:bg-transparent pt-[138px] pb-5 lg:py-[unset] px-5 absolute top-0 lrf1 fullVh fullSvh lg:!h-[unset] overflow-scroll lg:overflow-visible lg:static w-full lg:w-[unset] flex flex-wrap lg:items-center items-end justify-between lg:justify-normal lg:gap-sp32 gap-4`}
+              ? "ltr:left-0 rtl:right-0"
+              : "ltr:-left-full rtl:-right-full"
+          }  transition-all duration-500 bg-dark-navy lg:bg-transparent pt-[138px] pb-5 lg:py-[unset] px-5 absolute top-0 fullVh fullSvh lg:!h-[unset] overflow-scroll lg:overflow-visible lg:static w-full lg:w-[unset] flex flex-wrap lg:items-center items-end justify-between lg:justify-normal lg:gap-sp32 gap-4`}
         >
           <ul className="flex flex-col lg:flex-row lg:items-center lg:gap-sp32 gap-[18px] w-full lg:w-[unset] mb-auto lg:mb-[unset]">
             {navigationLinks.map((navigationLink, index) => (

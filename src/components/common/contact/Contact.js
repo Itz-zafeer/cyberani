@@ -6,7 +6,7 @@ import Form from "../form/Form";
 
 const Contact = () => {
   return (
-    <section className="lg:py-sp128 py-[150px] relative">
+    <section className="lg:py-sp128 py-[150px] relative z-[2]">
       <BackGrounds />
       <div className="myContainer flex flex-wrap justify-between lg:gap-sp48 gap-12 relative z-[2]">
         <div className="lg:w-[29.0972222222vw] text-white">

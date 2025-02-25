@@ -3,7 +3,7 @@ import BackGrounds from "./BackGrounds";
 
 const Cta = () => {
   return (
-    <div className="lg:py-[11.9444444444vw] py-[227px] relative">
+    <div className="z-[1] lg:py-[11.9444444444vw] py-[227px] relative">
       <BackGrounds />
       <div className="relative z-[2] myContainer text-white lg:w-[50.9027777778vw] text-center flex flex-col items-center">
         <h2 className="lg:text39 mtext24 font-medium">

@@ -6,7 +6,7 @@ const Function = ({ funtion, index }) => {
       <span className="lg:text48 text-[48px] gradient_text !font-bold">
         {" "}
         {index < 9 && 0}
-        <span>{index + 1}</span>
+        <span className="gradient_text">{index + 1}</span>
       </span>
       <h4 className="lg:text24 mtext24 font-medium">{funtion.heading}</h4>
       <p className="lg:text18 lg:leading-[1.45833333333vw] mtext18">
